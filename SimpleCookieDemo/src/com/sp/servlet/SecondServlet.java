@@ -35,8 +35,10 @@ public class SecondServlet extends HttpServlet {
 		{
 			a_name = "Adult";
 		}
-		
-		pw.println("Hello .."+name+"..According to your age :"+age+" you are "+a_name);
+		pw.println("<h1 style='color:green'><div align='center'>");
+		pw.println("Hello .."+name+"<br>According to your age :"+age+"<br>"+name+" you are ::" +a_name);
+		pw.println("</h1><h3 style='text-align:center'><br><a href = 'Form.html'>HOME</a></h3>");
+		pw.println("</div>");
 	}
 
 	public void doPost(HttpServletRequest req, HttpServletResponse res) throws ServletException, IOException {
