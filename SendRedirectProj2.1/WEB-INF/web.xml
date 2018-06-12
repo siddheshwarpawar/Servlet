@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+  <welcome-file-list>
+    <welcome-file>home.html</welcome-file>
+  </welcome-file-list>
+  <servlet>
+  	<servlet-name>search1</servlet-name>
+  	<servlet-class>com.sp.servlet.SearchServlet2</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>search1</servlet-name>
+  	<url-pattern>/searchurl</url-pattern>
+  </servlet-mapping>
+</web-app>
